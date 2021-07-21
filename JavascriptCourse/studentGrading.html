@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student grading System</title>
+
+    <style>
+        body{
+            background-color:darkslategrey;
+            color:darkblue;
+        }
+    #header1{
+        background-color:aqua ;
+        color:red;
+        text-align: center;
+        padding: 10px 10px;
+        margin: auto;
+    }
+    #para{
+        text-align: center;
+        background-color:gray;
+        color:rebeccapurple;
+        font-size: 20px;
+        font-family: "Droid Sans Mono Dotted";
+
+    }
+    #header3{
+
+        background-color:aqua ;
+        color: #ff0000;
+        text-align: left;
+        padding: 10px 10px;
+        margin: auto;
+    }
+
+    </style>
+</head>
+<body background-color="black">
+<h1 id="header1">My header</h1>
+<script>
+    // document.getElementById("header1").innerHTML="===================JUJA PROGRAMMING SCHOOL===================";
+
+</script>
+<br>
+<P id="para">This is the end of year examination</P>
+<h3 id="header3">
+
+</h3>
+<form action="examination.html" method="post">
+<div>
+<label >First Name</label>
+<input id="label1" type="text" placeholder="First Name">
+
+<label>Last Name</label>
+<input id="label2" type="text" placeholder="Last Name">
+</div>
+<h3>STUDENT DETAILS</h3>
+<div>
+    <label >First Name</label>
+    <input  id="header2" type="text" placeholder="First Name">
+
+    <label>Middle Name</label>
+    <input  type="text" placeholder="Middle Name" required>
+    <label >Last Name</label>
+    <input  type="text" placeholder="Last Name" required>
+
+    <label>Reg. No</label>
+    <input  type="text" placeholder="Reg. No" required>
+</div>
+
+<h3>ACADEMIC DETAILS</h3>
+<div>
+        <label >Unit Code</label>
+        <input  type="text" placeholder="Unit Code">
+        <label >Unit Name</label>
+        <input  type="text" placeholder="Unit Name">
+        <label >Unit Score</label>
+        <input  type="text" placeholder="Unit Score">
+<br>
+        <label >Unit Code</label>
+        <input  type="text" placeholder="Unit Code">
+        <label >Unit Name</label>
+        <input  type="text" placeholder="Unit Name">
+        <label >Unit Score</label>
+        <input  type="text" placeholder="Unit Score">
+    <br>
+        <label >Unit Code</label>
+        <input  type="text" placeholder="Unit Code">
+        <label >Unit Name</label>
+        <input  type="text" placeholder="Unit Name">
+        <label >Unit Score</label>
+        <input  type="text" placeholder="Unit Score">
+    <br>
+        <label >Unit Code</label>
+        <input  type="text" placeholder="Unit Code">
+        <label >Unit Name</label>
+        <input  type="text" placeholder="Unit Name">
+        <label >Unit Score</label>
+        <input  type="text" placeholder="Unit Score">
+    <br>
+        <label >Unit Code</label>
+        <input  type="text" placeholder="Unit Code">
+        <label >Unit Name</label>
+        <input  type="text" placeholder="Unit Name">
+        <label >Unit Score</label>
+        <input  type="text" placeholder="Unit Score">
+    <br>
+        <label >Unit Code</label>
+        <input  type="text" placeholder="Unit Code">
+        <label >Unit Name</label>
+        <input  type="text" placeholder="Unit Name">
+        <label >Unit Score</label>
+        <input  type="text" placeholder="Unit Score">
+    <br>
+</div>
+<div>
+        <h3> STUDENT TOTAL MARK </h3>
+        <label>Total Mark</label>
+        <input  type="text" placeholder="Total Mark">
+
+<!--        <h3 style="justify-content:right"> STUDENT AVERAGE MARK </h3>-->
+        <label>Average Mark</label>
+        <input  type="text" placeholder="Average Mark">
+        <label>Grade</label>
+        <input  type="text" placeholder="Student Grade">
+</div>
+<div>
+    <h3> INSTRUCTOR REMARKS </h3>
+    <label>REMARKS</label>
+    <input  type="textArea" placeholder="Instructor Remarks">
+
+</div>
+    <input type="submit" value="Submit">
+</form>
+</body>
+
+<script src="studentGrading.js">
+
+</script>
+</html>
